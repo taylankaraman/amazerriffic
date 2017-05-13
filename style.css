@@ -55,14 +55,19 @@ main{
 	width: 285px;
 }
 
-h2, h3, h5{
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.2em;
 	font-family: 'Ubuntu', sans-serif;
 }
 
-h3,h5{
+h5{
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.2em;
 }
 
-h2{
-	font-size: 2em;
-}
+
