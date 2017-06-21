@@ -69,5 +69,18 @@ h5{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.2em;
 }
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100 px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active{
+	background: #eee;
+}
 
 

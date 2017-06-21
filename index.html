@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<title>Amazerriffic</title>
-		<link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	</head>
@@ -22,20 +22,20 @@
 		
 		<main>	
 		  <div class="container">	
-		    <div class="main-left">
-				<h2>Amazerriffic will change your life!</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-				<h3>Here's why you need Amazerriffic</h3>
-				<ul>
-					<li>It fits your lifestyle</li>
-					<li>It's awesome</li>
-					<li>It rocks your world</li>
-				</ul>
+		    <div class="tabs">
+				<a href="#"><span class"active">Newest</span></a>
+				<a href="#"><span class"active">Oldest</span></a>		
+				<a href="#"><span class"active">Add</span></a>		
 			</div>
-
-			<div>
-			    <img src="lightbulb.png" alt="an image of a lightbulb">	
+			<div class="content">
+				<ul>
+					<li>Get Groceries</li>
+					<li>Make up some new ToDos</li>
+					<li>Finish the certification prep</li>
+					<li>Get paint from Bunnings</li>
+					<li>Finish web application book</li>
+					<li>Play some guitar</li>
+				</ul>
 			</div>
 		  </div>
 		</main>
@@ -62,5 +62,8 @@
 			</div>			
 		  </div>
 		</footer>
+		
+		<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="javascripts/app.js"></script>
 	</body>
 </html>
